@@ -37,3 +37,19 @@ This project aims to monitor home energy consumption using IoT devices, specific
 1. Clone this repository:
    ```bash
    git clone https://github.com/IceEz555/Project_Final_IoT.git
+
+2. เปิดโค้ดใน Arduino IDE หรือ VS Code PlatformIO
+
+3. แก้ไขค่า WiFi และ AWS Credentials ในไฟล์ config.h
+
+4. Upload โค้ดเข้าสู่บอร์ด
+
+### ☁️ Cloud & Dashboard:
+- ตั้งค่า AWS IoT Core สำหรับรับข้อมูลจากอุปกรณ์
+- สร้าง Lambda Function หรือใช้ AWS API Gateway สำหรับดึงข้อมูล
+- สร้าง Web Dashboard (HTML/CSS/JS) เพื่อแสดงผล
+
+### 🙋‍♂️ Authors | ผู้จัดทำ
+Apivit Yin. and Rapeepon Kampha (GitHub: IceEz555)
+
+
